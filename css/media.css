@@ -1,0 +1,123 @@
+
+/* quary end */
+/* ----------------------------------------------------- */
+@media (max-width: 1440.98px){
+    .banner-content h1{
+        font-size: 63px;
+        padding: 0px;
+    }
+}
+/* // Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width */
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+    .banner-content h1{
+        font-size: 53px;
+        padding: 0px;
+    }
+    .our-attorneys-contant h2 {
+        font-size: 40px;
+    }
+}
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    
+    .banner-content h1{
+        font-size: 45px;
+        padding: 0px;
+    }
+    
+    .our-attorneys-contant h2 {
+        font-size: 30px;
+    }
+    .our-attorneys-contant p{
+        font-size:20px;
+    }
+ }
+ /* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .banner-ht{
+        height: 40vh;
+    }
+    .banner-content h1{
+        font-size: 35px;
+        padding: 0px;
+    }
+    .our-attorneys-contant h2 {
+        font-size: 30px;
+    }
+    .inner-attorney {
+        padding: 45px 0px;
+        text-align: center;
+    }
+    .our-attorneys-contant {
+        margin-bottom: 25px;
+    }
+    .item-image {
+        margin-bottom: 25px;
+    }
+    .social-follow i {
+        font-size: 23px;
+    }
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+/* @media (max-width: 575.98px) {  */
+    @media (max-width: 350.98px) {
+    .navbar-light .navbar-brand {
+        font-size: 27px;
+    }
+    .banner-ht {
+        height: 30vh;
+    }
+    .banner-content h1{
+    font-size: 30px;
+    padding: 0px;
+    }
+    .who-we-are-contant {
+         margin-right: 0; 
+        margin-bottom: 50px;
+    }
+    .img-fluid {
+        width: 100%;
+    }
+    .item-content h3{
+        font-size: 20px;
+    }
+    .we-do-item {
+        margin-bottom: 15px;
+    }
+    .item-content{
+        left: 20%;
+    }
+
+    .our-attorneys{
+        padding: 20px 0px;
+    }
+    .item-text p{
+        font-size: 14px !important;
+    }
+    .inner-attorney {
+        padding: 45px 0px;
+        text-align: center;
+    }
+    .our-attorneys-contant {
+        margin-bottom: 20px;
+    }
+    .our-attorneys-contant span {
+        margin-bottom: 20px;
+    }
+    .item-image {
+        margin-bottom: 25px;
+    }
+    .terms {
+        font-size: 10px;
+    }
+    .social-follow i {
+            padding: 0px 2px;
+            font-size: 15px;
+        }
+}
+

@@ -1,0 +1,330 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #284f87;
+    margin-bottom: 30px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: #b1b1b1;
+}
+/* header section start */
+.nav-manu{
+    background-color: #fff;
+}
+.navbar-light .navbar-brand {
+    color: #32377b;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #466093;
+    font-size: 20px;
+    font-weight: 600;
+}
+.logo{
+    font-size: 30px;
+    margin: 30px 0px;
+    letter-spacing: 9px;
+    font-family:'Montserrat', sans-serif;
+    color: #284f87;
+    font-weight: bold;
+}
+/* banner section start */
+.banner-section{
+    background-image: url(../images/lawyer_pro.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0px;
+}
+.banner-ht{
+    height: 60vh;
+    color: #fff;
+}
+.banner-content{
+    position: relative;
+}
+.banner-content h1{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+.arrowdown-icon i {
+    position: absolute;
+    font-size: 36px;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50px, -60px);
+    animation: arrowdown-icon 1s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes arrowdown-icon{
+    0%{
+        top:250%;
+    }
+    100%{
+        top: 300%;
+    }
+}
+/* who we are section start */
+section.who-we-are {
+    padding: 60px 0px;
+}
+.who-we-are-contant{
+    margin-right: 60px;
+}
+.who-we-are-contant span{
+    background-color: #e44f24;
+    display: inline-block;
+    height: 4px;
+    width: 0px;
+    margin-bottom: 20px;
+    transition: 0.6s ease;
+}
+.who-we-are-contant:hover.who-we-are-contant span{
+    width: 100px;
+}
+.who-we-are-contant h1{
+    font-size: 25px;
+    margin: 20px 0px;
+}
+.who-we-are-contant p{
+    text-align: justify;
+    
+}
+.img-fluid {
+    width: 100%;
+}
+
+/* what we do section start */
+.what-we-do{
+   padding: 60px 0px;
+    background-color: #f9f8f7;
+    background-image: url(../images/back-img.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.item-heading span{
+    background-color: #284f87;
+    display: inline-block;
+    height: 4px;
+    width: 0px;
+    transition: 0.6s ease;
+}
+.we-do-span:hover .item-heading span{
+    width: 100px;
+}
+.item-heading span{
+ margin-bottom: 20px;
+}
+.item-image{
+    position: relative;
+    margin-bottom: 20px;
+   transition: .8s ease;
+}
+.item-image:hover{
+    transform: scale(1.1);
+}
+.item-image::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#207cca+37,3b3683+100&0+0,1+99 */
+background: -moz-linear-gradient(top,  rgba(32,124,202,0) 0%, rgba(32,124,202,0.37) 37%, rgba(59,55,132,1) 99%, rgba(59,54,131,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(32,124,202,0) 0%,rgba(32,124,202,0.37) 37%,rgba(59,55,132,1) 99%,rgba(59,54,131,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(32,124,202,0) 0%,rgba(32,124,202,0.37) 37%,rgba(59,55,132,1) 99%,rgba(59,54,131,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00207cca', endColorstr='#3b3683',GradientType=0 ); /* IE6-9 */
+
+}
+
+.item-content h3{
+    font-family:'Montserrat', sans-serif;  ;
+    
+}
+.item-content {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 20%;
+    z-index: 1;
+}
+.item-icon-we-do{
+    position: absolute;
+    color: #fff;
+    bottom: 20%;
+    left: 30%;
+    font-size: 25px;
+    transition: .8s ease;
+}
+.item-image:hover .item-icon-we-do{
+   left: 50%;
+}
+/* our attorneys section */
+.our-attorneys{
+    min-height: 50vh;
+    background-image: url(../images/attornyback.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 60px 0px;
+}
+.hg-att{
+ 
+}
+.our-attorneys-contant {
+    padding-top: 24px;
+}
+
+.our-attorneys-contant span{
+    background-color: #e44f24;
+    display: inline-block;
+    height: 4px;
+    width: 0px;
+    margin-bottom: 20px;
+    transition: .6s ease;
+}
+.our-attorneys-contant:hover.our-attorneys-contant span{
+    width: 100px;
+}
+.our-attorneys-contant h2{
+    color: #fff;
+    font-size: 30px;
+}
+.our-attorneys-contant p{
+    font-size:20px;
+}
+.our-attorneys-contant a{
+    color: #e44f24;
+    background-color: transparent;
+    border-bottom: 2px solid #e44b5d;
+    text-decoration: none;
+    padding-bottom: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.over-image{
+    position: relative;
+}
+.item-text {
+    position: absolute;
+    top: 69%;
+    left: 12%;
+    font-size: 20px;
+    color: #fff;
+}
+
+/* language section */
+.language-section {
+    margin: 60px 0px;
+}
+.header-language span{
+    background-color: #e44f24;
+    display: inline-block;
+    height: 4px;
+    width: 0px;
+    transition: .6s ease;
+}
+.header-language:hover.header-language span{
+    width: 100px;
+}
+.header-language h1 {
+    font-size: 36px;
+    color: #32377b;
+    text-transform: uppercase;
+    margin-top: 29px;
+    margin-bottom: 52px;
+}
+.header-language p{
+    text-align: justify;
+}
+.spanish{
+    margin: 30px 0px;
+}
+.spanish a{
+    color: #e44f24;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+}
+.spanish h3{
+    color: #32377b;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* contact us */
+.contact-us{
+    padding: 60px 0px;
+    background-color: #32377b;
+}
+.contact-us h2{
+    color: #fff;
+    margin: 20px 0px;
+}
+input{
+    border: none !important;
+    border-bottom: 1px solid #e8682d !important;
+}
+form input{
+    background: transparent;
+    margin-bottom: 15px;
+    border: none;
+    display: inline-block;
+    width: 100%;
+    padding: 8px;
+    border-bottom: 1px solid #e8682d;
+}
+.btn-primary {
+    background-color: #e8682d;
+    padding: 8px 50px;
+    font-size: 24px;
+    border-color: none;
+}
+.btn-primary:hover{
+    background-color: transparent;
+    border: 1px solid #e8682d;
+}
+.form-group {
+    margin-bottom: 4rem;
+}
+.hg-footer{
+    height: 5vh;
+}
+footer{
+    padding: 20px 0px ;
+    font-size: 20px;
+}
+.social-follow i{
+    font-size: 30px;
+    padding: 0px 4px;
+    color: #284f87;
+    transition: .6s ease;
+}
+.social-follow i:hover{
+    transform: rotate(45deg) skew(35deg);
+}
+.text-right {
+    text-align: right!important;
+    font-size: 30px;
+
+}
+.terms{
+    font-size: 18px;
+    padding: 10px;
+    
+}
